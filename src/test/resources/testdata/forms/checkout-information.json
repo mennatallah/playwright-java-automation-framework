@@ -1,0 +1,26 @@
+{
+  "name": "checkout-information",
+  "fields": [
+    {
+      "testId": "firstName",
+      "type": "text",
+      "value": "Menna",
+      "required": true,
+      "requiredError": "Error: First Name is required"
+    },
+    {
+      "testId": "lastName",
+      "type": "text",
+      "value": "Tester",
+      "required": true,
+      "requiredError": "Error: Last Name is required"
+    },
+    {
+      "testId": "postalCode",
+      "type": "text",
+      "value": "11511",
+      "required": true,
+      "requiredError": "Error: Postal Code is required"
+    }
+  ]
+}
